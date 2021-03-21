@@ -1,0 +1,70 @@
+#hide-projects {
+  display: none;
+  text-align: center;
+  align-items: center;
+  }
+
+#contact {
+   display: none;
+ }
+
+.project-link {
+    color: #f2e9e4;
+    text-shadow: 0 0 0.3125rem black;
+    text-decoration: none;
+    transition-duration: 600ms;
+    text-align:center;
+    width: 100%;
+    border-bottom: 0.0625rem solid;
+    padding: 2% 2%;
+  }
+
+.project-link:hover {
+    color: black;
+    text-shadow: 0 0 1.25rem white;
+    transition-duration: 600ms;
+    transition-timing-function: ease-in-out;
+  }
+
+.project-img {
+    width: 10rem;
+    height: 5rem;
+    object-fit: scale-down;
+    padding: 2%;
+    margin: 2%;
+    background: 0;
+    border-style: solid;
+    border-color: white;
+    transition-duration: 600ms;
+    box-shadow: inset 0 0 0.6125rem black,0 0 0.625rem black;
+  }
+
+.project-window {
+    margin: 1% 1%;
+    padding: 2%;
+    text-align: center;  
+    transition-timing-function: 300ms ease-in-out;
+    transition-duration: 800ms;
+  }
+
+.project-img:hover {
+    box-shadow: 0 0 1.25rem white;
+    transition-delay: 200ms;
+    width: 17rem;
+    height: 5rem;
+    background: #f2e9e4;
+  }
+  
+.main-section {
+  background-color: rgb(77, 77, 77); 
+    box-shadow: inset 0 0 0.5rem black;
+    padding: 2%;
+    margin: 2%;
+  }
+
+.project-shelf{
+  margin: 1px;
+  padding: 2%;
+  box-shadow: 0 0 0.5rem black;
+  background-color: grey; 
+  }

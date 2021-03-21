@@ -1,0 +1,170 @@
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 6.25rem;
+    }
+
+    h2 {
+        padding-top: 1%;
+        margin-bottom: 10%;
+        font-size: 250%;
+        margin-top: 5%;
+    }
+
+    .text-shelf {
+    padding-top: 1%;
+        }
+
+    .about-container {
+        font-size: 1.25rem;
+        margin-top: 5%;
+        padding-top: 1%;
+    }
+
+    .footer-div {
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        font-size: 3rem;
+        top: -0.1rem;
+    }
+
+    .menu-logo--container {
+        padding-top: 0.01rem;
+    }
+
+    .control-me{
+        display: block;
+    }
+
+    svg {
+        display: none;
+    }
+
+    label {
+        display: none;
+    }
+
+    .project-img {
+        width: 25rem;
+        height: 12.5rem;
+    }
+
+    .project-img:hover {
+        width: 60rem;
+        height: 12.5rem;
+    }
+    .project-link {
+        padding: 2% 20%;
+    }
+    ul {
+        padding-bottom: 0.1rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+
+}
+@media only screen and (max-width: 990px) {
+    
+    .contact-list {
+        margin: 0;
+        }
+
+    .control-me{ 
+        display: block;
+        margin: 0;
+        overflow: visible;
+        transition: all;
+    }
+    .project-link {
+        font-size: 1rem;
+        }
+
+    ul {
+        padding-left: 0%;
+        padding: 0%;
+        margin: 0%;
+        position: fixed;
+        overflow:hidden;
+    }
+
+    body {
+        margin: auto;
+    }
+
+    li a{
+        width: 100%;
+        text-align: left;
+        } 
+
+    .li {
+        overflow:hidden;
+        width: 100%;
+    }
+
+    input:checked ~ .control-me{
+        display: none;
+    }
+
+    .burger-main {
+        display: block;
+      }
+
+    .cross-main {
+        display: none;
+      }
+
+    .cross1 {
+          animation-name: rotateRectLeft;
+         animation-duration: 100ms;
+         animation-timing-function: linear;
+         animation-delay: 0s;            
+         animation-iteration-count: 1;
+         animation-fill-mode: forwards;
+          transform-origin: left;
+      
+        }
+    .cross2 {
+          animation-name: rotateRectRight;
+          animation-duration: 100ms;
+          animation-timing-function: linear;
+          animation-delay: 0s;            
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+          transform-origin: left bottom;
+      
+        }
+    @keyframes rotateRectLeft {
+          from { transform: rotateZ(0deg); }
+          to   { transform: rotateZ(45deg); }
+       }
+    @keyframes rotateRectRight {
+        from { transform: rotateZ(0deg); }
+        to   { transform: rotateZ(-45deg); }
+      }
+
+    .cross-reverse--1 {
+    animation-name: rotateRectLeft;
+       animation-duration: 100ms;
+       animation-timing-function: linear;
+       animation-delay: 0s;            
+       animation-iteration-count: 1;
+       animation-fill-mode: forwards;
+       animation-direction: reverse;
+        transform-origin: left;
+      
+      }
+
+    .cross-reverse--2 {
+        animation-name: rotateRectRight;
+        animation-duration: 100ms;
+        animation-timing-function: linear;
+        animation-delay: 0s;            
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        transform-origin: left bottom;
+        animation-direction: reverse;
+    }
+      
+}

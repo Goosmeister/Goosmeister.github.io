@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+
+  <link rel="stylesheet" href="styles/background-animation.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/menu.css">
+  <link rel="stylesheet" href="styles/projects.css">
+  <link rel="stylesheet" href="styles/media-queries.css">
+  <script src = "script/wipe.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+
+<html>
+  <header>
+
+  </header> 
+<head>
+  <title>Gustav Kotze's Portofolio</title>
+</head>
+<body>
+  <nav>
+    
+  
+<!--burger menu-->
+
+    <ul>
+      <div>
+        <div class="menu-logo--container">
+          <h4 class="logo">GK</h4>
+        </div>
+      </div>
+    <input type="checkbox" checked="checked" id="toggle" class="visually-hidden" onclick="rectChange()" >
+    <label for="toggle">
+      <svg class = "burger-main" id = "burger-main" viewBox="0 0 100 80" width="40" height="40">
+        <rect class = "cross-reverse--1" id = "rect1" width="100" height="20"></rect>
+        <rect class = "disable-burger" id = "rect2" y = "30" y="30" width="100" height="20"></rect>
+        <rect class = "cross-reverse--2" id = "rect3" y="60" width="100" height="20"></rect>
+      </svg>
+      <svg class = "cross-main" id = "cross-main" viewBox="0 0 100 80" width="40" height="40">
+        <rect id = "cross1" x=-10 width="100" height="20"></rect>
+        <rect id = "cross2" y="80" x=8 width="100" height="20"></rect>
+      </svg>
+        </label>
+
+<!--desktop menu-->
+
+          <div  id="control-me" class = "control-me">
+            <li class = "li"><a id = "btn1" href="#" onclick="home(); closeIt();" class="btn1">Home</a></li>
+            <li class = "li"><a id = "btn2" href="#" onclick="contacts(); closeIt();">Contact</a></li>
+            <li class = "li"><a id = "btn3" href="#" onclick="projects(); closeIt();">Projects</a></li>
+          </div>
+      </ul>
+    </nav>
+
+<!--background animation-->
+
+<div class="bg" id = "bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="bg bg4"></div>
+
+<!--page 1: Home: About-->
+
+  <div id = "about-container">
+    <div class="about-container">
+      <div class="text-shelf" id = "text-shelf">
+        <h2 class="home">Hi, I Am</h2>
+        <H1>Gustav Kotze</H1>
+        <div class = "about-container">
+      <p>I am a Junior Web Developer who is still learning loads about coding.</p>
+      <p>This is my portofolio hub where I intend to link projects I have and will be working on in the future.</p>
+        </div>
+    </div>    
+    </div>
+  </div>
+
+<!--page 2: Contacts-->
+
+<div id="contact">
+  <div class="about-container">
+    <div class="text-shelf" id = "text-shelf">
+      <h2 class="home">Contact</h2>
+      <div class="contact-div">
+        <a href = "https://www.linkedin.com/in/gustav-kotze-433853137/" class = "contact-list">Linkedin<br></a>
+        <a href = "https://github.com/Goosmeister" class = "contact-list">Github</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--page 3: Projects-->
+
+<div id="hide-projects">
+  <div class="about-container">
+    <div class="text-shelf" id = "text-shelf">
+      <h2 id="project-title">Projects</h2>
+      <div id="projects">
+    <section  type="tile" class="main-section">
+        <div class="project-shelf">
+          <h3 class="project-tile" id="Playstation_Landing_Page" >
+            <a class = "project-link" href= "projects/PlaystationLP/PlaystationLandingPage.html" target="_blank">Landing Page</a>
+          </h3>
+          <p class = "project-window">
+            <a  href= "projects/PlaystationLP/PlaystationLandingPage.html" target="_blank">
+            <img class = "project-img" src="projects/thumbnails/pslogo.png" alt="playstation logo"></a>
+          </p>
+      </div>
+    </section>
+      <section type="tile" class="main-section" >
+        <div class="project-shelf">
+        <h3 id="Form" >
+          <a class = "project-link" href= "projects/Form/Form.html" target="_blank">Form</a>
+        </h3>
+        <p class = "project-window">
+          <a href= "projects/Form/Form.html" target="_blank">
+          <img class = "project-img" src= "projects/thumbnails/question.png" alt="question mark"></a>
+        </p>
+      </div>
+      </section>
+      <section type="tile" class="main-section" >
+        <div class="project-shelf">
+        <h3 id="Tribute_Page">
+          <a class = "project-link" href= "projects/Goku/Goku.html" target="_blank">Tribute Page</a>
+        </h3>
+        <p class = "project-window">
+          <a href= "projects/Goku/Goku.html" target="_blank">
+          <img class = "project-img" src="projects/thumbnails/goku.png" alt="picture of goku"></a>
+        </p>     
+      </div>
+      </section>
+      <section type="tile" class="main-section" >
+        <div class="project-shelf">
+        <h3 id="Blog_page">
+          <a class = "project-link" href= "projects/blog/blog.html" target="_blank">Blog Page</a>
+        </h3>
+        <p class = "project-window">
+          <a href= "projects/blog/blog.html" target="_blank">
+          <img class = "project-img" src="projects/thumbnails/typewriter.png" alt="drawing of typewriter" class="project-img"></a>
+        </p>     
+        </div>
+      </section>
+    </section>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<footer>
+  <div class = "footer-div" >
+    <h3 class = "footer-info">created by Gustav Kotze</h3>
+  </div>
+</footer>
+
+</body>
+</html>

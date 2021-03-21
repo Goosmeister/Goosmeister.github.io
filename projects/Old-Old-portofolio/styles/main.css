@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+    color: white;
+    background-repeat:no-repeat;
+    display:flex; 
+    flex-direction:column;
+    height:100%;
+    }
+
+html {
+    height:100%;
+    }
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 2rem #f2e9e4;
+    background:white; 
+    font-size: 3rem;
+    color: black;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 10%;
+    border-style: solid;
+    border: 1rem 1rem;
+    border-color: white;
+    box-shadow: inset 0 0 0.5rem black;
+    text-align: center;
+    transition-duration: 600ms;
+  }
+
+  h1:hover {
+    color: red;
+    box-shadow: 0 0 0.625rem red;
+    transition-duration: 600ms;
+    transition-timing-function: ease-in-out;
+    margin: 0px 10%;
+    margin-bottom: 10%;
+    border-radius: 1rem;
+    text-shadow: 0 0 0.5rem black;
+        }
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(54, 54, 54);
+    text-shadow: 0 0 0.1rem white;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+    margin: 10% 0;
+    margin-top: 30%;
+    font-size: 2rem;
+    background-color: white; 
+    box-shadow: inset 0 0 0.3rem black;
+    border-style: solid;
+    border: 1rem 1rem;
+    border-color: white;
+    }
+
+.about-container {
+    background: white; 
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1rem;
+    color: black;
+    padding: 0.8rem;
+    margin-bottom: 5%;
+    margin-top: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    transition-duration: 600ms;
+    display: block;
+    box-shadow: inset 0 0 0.5rem black;
+    border-style: solid;
+    border: 1rem 1rem;
+    border-color: white;
+    }
+
+.text-shelf {
+    margin: 1px;
+    padding: 2%;
+    box-shadow: 0 0 0.5rem black;
+    border-radius: 0.2rem;
+    background-color: rgb(64, 64, 65); 
+    border-style: solid;
+    border: 1rem 1rem;
+    border-color: white;
+    }
+
+.contact-div {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #22223b;
+    background-color: white; 
+    box-shadow: inset 0 0 0.7rem black;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 10%;
+    display: block;
+    line-height: 3rem;
+    border-style: solid;
+    border: 1rem 1rem;
+    border-color: white;
+    }
+
+.contact-list {
+    padding: 0;
+    margin: 0;
+    }
+
+p {
+    margin: 0.2%;
+    font-size: 0.8rem;
+    }
+
+footer {
+    margin-top:auto; 
+    }
+
+.footer-info {
+    vertical-align: middle;
+    text-align: center;
+    }
+
+.footer-div {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    background: white;
+    color: #22223b;
+    height: 5rem;
+    box-shadow: inset 0 0 0.5rem black;
+    padding-top: 2%;
+    }

@@ -1,0 +1,29 @@
+.bg {
+  background: linear-gradient(-70deg,#1b1b1b 50%, #ffffff  50%);
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-5%;
+  top:-50%;
+  bottom: -50%;
+  z-index:-1;
+  animation:spin 200s linear infinite;
+  }
+
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:300s;
+    }
+
+  .bg3 {
+    animation-duration:400s;
+    }
+
+  .bg4 {
+    animation-duration:500s;
+    }
+
+@keyframes spin {
+      0% {transform:rotate(0deg);}
+      100% {transform:rotate(360deg);}
+  }
