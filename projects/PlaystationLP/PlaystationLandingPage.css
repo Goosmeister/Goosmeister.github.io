@@ -1,0 +1,138 @@
+html {
+ text-rendering: optimizeLegibility;
+ font-family: Arial,sans-serif;
+ font-size: 1rem;
+ margin: 0;
+ padding: 0;
+}
+main {
+  color: black;
+  font-family: Arial,sans-serif ;
+  text-align: center;
+  min-width: fit-content;
+}
+h1 {
+  padding:1%;
+  margin:3%;
+  color: white;
+text-shadow: 0 0 0.7rem navy;
+
+}
+.head {
+  padding: 1.25rem;
+  margin: 1%;
+  color: black;
+  background: linear-gradient(90deg, #f291ff, #fc6b6b, #1FA2FF, #91fff0  );
+  box-shadow: inset 0 0 1.25rem black;
+  background-size: 700% 700%;
+  -moz-animation:color 5s ease-in-out infinite;
+  -webkit-animation: color 5s ease-in-out infinite;
+  animation: color 10s ease-out infinite;
+}
+@-webkit-keyframes color {
+  0%{background-position:1% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@-moz-keyframes color {
+  0%{background-position:10% 0% 0 0}
+  50%{background-position:91% 100% 0 0}
+  100%{background-position:10% 0% 100% 100%}
+}
+@keyframes color { 
+  0%{background-position:1% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:0% 1%}
+}
+ul {
+  align-items: center;
+  align-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+p {
+  margin: 3% 10%;
+  text-align: justify;
+  padding: 1% 1%;
+  font-family: 'Playstation SST',Arial,Helvetica,sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  letter-spacing: 0.0125rem;
+}
+
+.link {
+ text-decoration: underline; 
+ color: white;
+}
+.h3 {
+  color: white;
+  border-color: transparent;
+  box-shadow: inset 0 0 0.9375rem navy;
+  padding: 2% 1%;
+  margin: 0;
+  margin-top: 5%;
+  background: linear-gradient(to right,#00439c, #1FA2FF,  #00439c );
+}
+h3 {
+  max-width: 25%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.625rem;
+  position: relative;
+  color: black;
+  background: white;
+  box-shadow: 0 0 1.5rem navy;
+}
+.topnav {
+  z-index: 1;
+  overflow: hidden;
+  position: fixed; 
+  top: 0;
+  left: 0; 
+  width: 100%;
+  background: white;
+  box-shadow: 0 0 0.9375rem #002e69;
+}
+
+.topnav a {
+  display: flex;
+  flex: 1;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 1.25rem ;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: white;
+}
+
+.topnav a.active {
+
+  color: rgb(1, 80, 250);
+}
+footer {
+  color: white;
+  padding: 6.25rem;
+  background-color: #00439c;
+  box-shadow: inset 0 0 0.9375rem rgb(0, 0, 71);
+text-align: center;
+}
+.footer {
+ transform: translateX(5%);
+}
+#footer {
+  transform: translateX(-5%);
+}
+.left, .right {
+  float: left;
+  width: 20%;
+}
+
+.main {
+  float: left;
+  width: 60%; 
+}

@@ -1,0 +1,14 @@
+
+
+
+label {
+  float: right;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  display: none;
+  }
+

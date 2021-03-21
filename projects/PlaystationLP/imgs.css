@@ -1,0 +1,58 @@
+
+
+.pslogo {
+max-width: 10rem;
+transform: translateY(20%);
+}
+.mainlogodiv {
+  padding:10%;
+  margin:10%;
+}
+.frame {
+  padding: 0.25%;
+  box-shadow:  inset 0 0 0.625rem black ;
+  margin-top: 2rem;
+  margin-bottom: 5%;
+  object-fit: cover;
+}
+.mainImg {
+  padding: 1%;
+  object-fit: cover;
+  height: 40em;
+  width: 98%;
+  box-shadow:  inset 0 0 0.625rem black ;
+}
+
+.imgG {
+  color: white;
+  box-shadow: inset 0 0 0.625rem #00439c;
+  border-color: transparent;
+  border-style: solid;
+  align-items: center;
+  background-color: white;
+  max-width: 60%;
+  height: auto;
+  align-items: center;
+  padding: 1.25rem;
+}
+iframe {
+  box-shadow: inset 0 0 0.625rem #00439c;
+  border-color: white;
+  border-style: solid;
+  align-items: center;
+  padding: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 100%;
+  width: 20rem;
+  height: 12rem;
+}
+.img {
+  color: white;
+  box-shadow: 0 0 1.25rem #00439c;
+  border-color: white;
+  border-style: solid;
+  align-items: center;
+  padding: 1.25rem;
+  box-align: inherit;
+}

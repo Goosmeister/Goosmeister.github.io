@@ -1,0 +1,94 @@
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-left: 0.5rem;
+  z-index: 0;
+  backdrop-filter: opacity(0.2);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(121, 120, 120, 0.1));
+  box-shadow: inset 0 0 0.5rem black ;
+  align-self: center;
+  border-radius: 1rem;
+  justify-content: center;
+}
+
+.wrap{
+  margin: 1vw;
+  animation: slide 10s alternate infinite;
+  animation-timing-function: ease-in-out;
+  cursor: pointer;
+  transition: all 500ms ease-out;
+
+  padding: 2%;
+  position: relative;
+  display: flex;
+background: transparent;
+border: 1px solid;
+}
+
+#card1 {
+  align-self: flex-start;
+  top: 30rem;
+}
+#card2 {
+  align-self:center;
+  top: 15rem;
+}
+#card3 {
+  align-self: center;
+  top: 15rem;
+}
+
+
+.container {
+  width: 20rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-position: center;
+  background-size: 30rem 20rem;
+  font-size: 1.2rem;
+  background-color: white;
+  transition: all 500ms ease-in-out;
+
+}
+
+.container:hover {
+  background-size: 34rem 22rem;
+  transition: all 500ms ease-in-out;
+  filter:opacity(100%);
+}
+
+@keyframes slide {
+    from{transform:translateX(-0.3rem);}
+    to{transform: translateX(0.3rem);}
+}
+
+p {
+  position: relative;
+  display: flex;
+  align-self:flex-end;
+color: white;
+flex-direction: column;
+background: #d72323;
+height: 10rem;
+margin-bottom: 2rem;
+width: 100%;
+text-align: center;
+text-transform: uppercase;
+padding: 2rem;
+}
+
+#left {
+  animation: slide 1s alternate infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#right {
+  animation: slide 1s alternate-reverse infinite;
+  animation-timing-function: ease-in-out;
+}

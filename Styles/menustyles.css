@@ -1,0 +1,85 @@
+li, a, button {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    
+}
+nav {
+z-index: 1;
+float: right;
+}
+
+header {
+
+    justify-content: space-between;
+    align-items: right;
+    padding: 0.5rem 10%;
+    align-content: right;
+    position: fixed;
+    z-index: 3;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem black;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style-type: none;
+
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0rem 1.25rem;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: red;
+    transition: all 500ms ease-in;  
+}
+
+button {
+    color: white;
+    padding: 0.5625rem 1.5625rem;
+    background-color: rgb(36, 38, 59);
+    border: none;
+    border-radius: 3.125rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(82, 82, 82, 0.8);
+}
+
+li {
+    margin: 0.625rem;
+}
+
+.menu-links {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.menu-links::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.125rem;
+    background: red;
+    transition: width .3s;
+}
+
+.menu-links:hover::after {
+    width: 100%;
+    
+}

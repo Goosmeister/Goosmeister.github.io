@@ -1,0 +1,154 @@
+
+.div {
+
+    background:
+       url("https://c4.wallpaperflare.com/wallpaper/273/365/87/newspaper-fragment-terror-girl-on-run-daily-mail-wallpaper-preview.jpg");
+     padding: 1%;
+     margin: 5%;
+     box-shadow: 0px 0px 200px black;
+   }
+   section {
+       background: white;
+     padding: 1%;
+     margin: 5%;
+     box-shadow: 0px 0px 20px black;
+   }
+   #mydiv {
+    position: absolute;
+  }
+  .ruler {
+width: 100fr ;
+height: 40em;
+  }
+  #mydivheader {
+    position: absolute;
+  }
+  .click {
+    text-shadow: 0px 0px 5px white;
+    font-family: "Times";
+    font-weight: bold;
+    color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+   #Header {
+     backdrop-filter: blur(10px);
+     background: url("https://c4.wallpaperflare.com/wallpaper/273/365/87/newspaper-fragment-terror-girl-on-run-daily-mail-wallpaper-preview.jpg");
+     padding: 2%;
+     border: 10px solid transparent;
+     padding: 5%;
+     border-image: url("https://i.pinimg.com/originals/5a/94/94/5a949484d4066df0a24d7c7725bca2cb.jpg") 50 round;
+    box-shadow: 0px 0px 5px black;
+   }
+   
+   body {
+    display: flex;
+    flex-direction: column;
+     text-align: Center;
+     font-family: Times New Roman, Arial;
+     background-image:
+       url(https://i.pinimg.com/originals/5a/94/94/5a949484d4066df0a24d7c7725bca2cb.jpg);
+       padding: 1%;
+       margin: 2%;
+       backdrop-filter: blur(10px);
+       box-shadow: 0px 0px 20px black;
+   }
+   
+   section {
+     border-color: white;
+     border-style: solid;
+     padding: 5%;
+     margin-left: 10%;
+     margin-right: 10%;
+     overflow: auto;
+     text-align: justify;
+   }
+   
+   h1 {
+     color: white;
+     text-shadow: 0px 0px 5px black;
+     text-align: center;
+     border-color: white;
+     border-style: solid;
+     margin: 10%;
+     padding: 1%;
+     backdrop-filter: blur(10px);
+   }
+   h2 , h3 , h4{
+     text-align: center;
+   }
+   pre {
+     font-size: 20px;
+     line-height: 200%;
+     display: block;
+     font-family: "Times New Roman", sans-serif;
+     white-space: pre;
+     margin: 10%;
+     text-align: justify;
+     white-space: pre-wrap;       /* Since CSS 2.1 */
+       white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+       white-space: -pre-wrap;      /* Opera 4-6 */
+       white-space: -o-pre-wrap;    /* Opera 7 */
+     word-break: keep-all;  
+     word-wrap: break-word;       /* Internet Explorer 5.5+ */
+      -webkit-touch-callout: none; /* iOS Safari */
+       -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Old versions of Firefox */
+           -ms-user-select: none; /* Internet Explorer/Edge */
+               user-select: none; /* Non-prefixed version, currently
+                                     supported by Chrome, Edge, Opera and Firefox */
+   }
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

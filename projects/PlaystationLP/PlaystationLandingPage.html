@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+  <link rel="stylesheet" href="imgs.css">
+  <link rel="stylesheet" href="screensizes.css">
+  <link rel="stylesheet" href="hamburger.css">
+  <link href = "PlaystationLandingPage.css" rel="stylesheet" type = "text/css">
+  <script src="script/burgerToCross.js"></script>
+
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PlayStation</title>
+
+<body>
+  <main>
+    <header id="header">
+    <div class="navbarfix">
+      <div class = "topnav">
+        <nav>
+          <img src="thumnails/symbols.png" alt="playstation symbols" class="menuimg">
+          <ul>
+
+<!--Burger menu-->
+
+            <input type="checkbox" checked="checked" id="toggle" class="visually-hidden" onclick="rectChange()" >
+            <label for="toggle">
+              <svg class = "burgerMain" id = "burgerMain" viewBox="0 0 100 80" width="40" height="40">
+                <rect class = "crossreverse1" id = "rect1" width="100" height="20" style = "fill: red"></rect>
+                <rect class = "disableburger" id = "rect2" y = "30" y="30" width="100" height="20" style = "fill: #70a8fd;"></rect>
+                <rect class = "crossreverse2" id = "rect3" y="60" width="100" height="20" style = "fill: rgb(70, 253, 214);"></rect>
+                </svg>
+              <svg class = "crossMain" id = "crossMain" viewBox="0 0 100 80" width="40" height="40">
+                <rect id = "cross1" x=-10 width="100" height="20" fill="red"></rect>
+                <rect id = "cross2" y="80" x=8 width="100" height="20" fill="rgb(70, 253, 214)"></rect>
+              </svg>
+            </label>
+
+<!--main menu-->
+
+            <div id="control-me" class = "control-me">
+              <li><a class="active" onclick = "closeIt()" href="#header">Home</a></li>
+              <li><a onclick = "closeIt()" href="#Features">Features</a></li>
+              <li><a onclick = "closeIt()" href="#Games">Games</a></li>
+              <li><a onclick = "closeIt()" href="#Legacy">Legacy</a></li>
+              <li><a onclick = "closeIt()" href="#Marketing">Marketing</a></li>
+              <li><a onclick = "closeIt()" href="#History">History</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+<!--Headers and logos-->
+
+    <div class = "mainlogodiv">
+      <img src="thumnails/logo.png" alt="playstation symbols" class="pslogo">
+    </div>
+  <head>
+    <div class = "frame">
+      <div class = "head">
+        <h1>The King Of The 90's Gaming Consoles</h1>
+      </div>    
+    </div>
+  </head>
+
+  <img id="header-img" class = "mainImg" src="thumnails/ps1wr.jpg" />
+
+</header>
+
+<!--article-->
+
+<div id="Legacy">
+  <br>  
+  <div class="h3">
+    <h3 >Legacy</h3>
+  </div>
+    <p>
+    Sony Computer Entertainment was an upstart in the video game industry in late 1994, as the early 1990s were dominated by Nintendo and Sega. Nintendo had been the clear leader in the video game industry since the introduction of the NES in 1985 and the Nintendo 64 was initially expected to maintain this position for Nintendo. The PlayStation's target audience included 15- to 17-year-olds who were not the primary focus of Nintendo, and 18- to 29-year-olds, who represented the first generation to grow up playing video games. By the late 1990s, Sony became a highly regarded console brand due to the PlayStation, with a significant lead over second-place Nintendo, while Sega was relegated to a distant third. <br><br>
+    The PlayStation's lead in installed base and developer support paved the way for the success of the next-generation PlayStation 2, which overcame an early launch from the Sega Dreamcast and then fended off competition from the Microsoft Xbox and Nintendo GameCube.
+    </p>
+  </div>
+  <div id="Marketing"></div>
+  <br>
+  <div class="h3">
+    <h3 >Marketing</h3>
+  </div>
+    <p>
+    The PlayStation was backed by a successful marketing campaign, allowing Sony to gain an early foothold in Europe and North America.[84] Initially, PlayStation demographics were skewed towards adults, but the audience broadened after the first price drop.[85] While the Sega Saturn was marketed towards 18 to 34 year-olds,[86] the PlayStation was initially marketed exclusively towards teenagers. Executives from both Sony and Sega reasoned that because younger players typically looked up to older, more experienced players, advertising targeted at teens and adults would draw them in too. Additionally, Sony found that adults reacted best to advertising aimed at teenagers; Lee Clow surmised that people who started to grow into adulthood regressed and became "17 again" when they played video games.[87] The console was marketed with advertising slogans stylised as "LIVE IN YOUR WORLD. PLAY IN OURS" and "U R NOT E" (red E).[88][22] Clow thought that by invoking such provocative statements gamers would respond to the contrary and say "'Bullshit. Let me show you how ready I am.'"[89] As the console's appeal enlarged, Sony's marketing efforts broadened from their earlier focus on mature players to specifically target younger children as well
+    </p>
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/HbwvnaNJVZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div id="Features"></div>
+  <br>
+  <div class="h3">
+    <h3 >Features</h3>
+  </div>
+    <p>
+    PlayStation models are equipped to play audio CDs; further, Asian model SCPH-5903 can also play Video CDs. The PlayStation can play songs in a programmed order, shuffle the playback order of the disc and repeat one song or the entire disc. Later PlayStation models utilise a music visualisation function called SoundScope.<br />This function, as well as a memory card manager, is accessed by starting the console without either inserting a game or closing the CD tray, thereby accessing a GUI for the PlayStation BIOS.<br>
+    The GUI for the PS one and PlayStation differ depending on the firmware version: the original PlayStation GUI had a dark blue background with rainbow graffiti used as buttons, while the early PAL PlayStation and PS one GUI had a grey blocked background with 2 icons in the middle (these were different on each version).<br> If the CD lid is closed with a game inside at any time while in the menu, the game will start.
+    </p>
+    <div id="History"></div>
+    <br>
+  <div class="h3">
+    <h3 >History</h3>
+  </div>
+    <p>
+    The PlayStation was the brainchild of Ken Kutaragi, a Sony executive who managed one of the company's hardware engineering divisions and was later dubbed "The Father of the PlayStation".[12][13][14] Kutaragi's interest in working with video games stemmed from seeing his daughter play games on Nintendo's Famicom video game console.[15] The inception of what became the released PlayStation dates back to 1988 with a joint venture between Nintendo and Sony.[6] Nintendo had already produced floppy disk technology to complement cartridges, in the form of the Family Computer Disk System, and wanted to continue this complementary storage strategy for the Super Nintendo Entertainment System (SNES)
+    </p>
+    <img class="imgG" src="thumnails/psnprototype.jpg" />
+    <p style = "text-align: center;">
+      A photo of the only known SNES-based PlayStation prototype
+    </p>
+    <div id="Games"></div>
+    <br>
+  <div class="h3">
+    <h3 >Games</h3>
+  </div>
+    <p>
+    There are currently 3071 games.<br> The final licensed PlayStation game released in Japan (not counting re-releases) was Black/Matrix 00 on May 13, 2004, the final licensed game released in North America was FIFA Football 2005 on October 12, 2004, and the final licensed game released in Europe was Moorhuhn X on July 20, 2005. Additionally, homebrew games were created using the Sony PlayStation Net Yaroze.
+  <div>
+    <img class="imgG" src="thumnails/Ps1games.jpg" />
+  </div>
+    </p>
+  </main>
+</body>
+
+<footer>
+  <ul class= "footer">
+    <img src="thumnails/symbols.png" alt="playstation symbols" class="menuimg" id = "footer">
+    <li>Visit the  <a target = "_blank" class="link" href="https://en.wikipedia.org/wiki/PlayStation_(console)">PlayStation Wikipedia</a> or the <a target = "_blank" class="link" href="https://www.playstation.com/en-us/">Official PlayStation Website</a> for more!</li><br>
+    <li>Or visit my <a target = "_blank" class="link" href="https://goosmeister.github.io/">Project hub</a> for more of my sites.</li>
+  </ul>
+</footer>
+
+</html>
