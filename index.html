@@ -7,8 +7,15 @@
         <link rel="stylesheet" href="Styles/Background-animation.css">
         <link rel="stylesheet" href="Styles/stars.css">
         <link rel="stylesheet" href="Styles/cards.css">
+        <link rel="stylesheet" href="Styles/MediaSizing.css">
         <script src="script/cards.js"></script>
         <script src="script/script.js"></script> 
+
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+
 
         <meta charset="UTF-8">
         <meta name="description" content="Gustav Kozte Portofolio">
@@ -43,14 +50,15 @@
 </div><canvas class="circle_small"></canvas>
     
 <!---->
+<div class="white-break-header"></div>
 
-<div class="fullscreen-div" style="margin-top: 5rem">
+<div class="fullscreen-div">
 <article class="me" id ="me">
-    <h3>Hi, My Name Is <bold>Gustav Kotze</bold></h3>
-    <h1 class="header_this">This</h1>
-    <h2 class="header_is">Is</h2>
-    <h2 class="header_my">My</h2>
-    <h1 class = "header_portofolio">Portofolio</h1>
+    <p>
+    <em class="name">Hi, My Name Is <bold>Gustav Kotze</bold></em>
+    <em class="header_this">This</em><em class="header_is">Is</em><br>
+    <em class="header_my">My</em><em class = "header_portofolio">Portofolio</em>
+    </p>
 </article>
 </div>
 
@@ -59,10 +67,8 @@
 
 <div class="fullscreen-div">
 <article class="projects" id ="projects">
-    <h1 class="header_this">These</h1>
-    <h2 class="header_are">Are</h2>
-    <h2 class="header_my">My</h2>
-    <h1 class = "header_portofolio">Projects</h1>
+    <em class="header_this">These</em><em class="header_are">Are</em><br>
+    <em class="header_my">My</em><em class = "header_portofolio">Projects</em>
 </article>
 
 </div>
@@ -78,8 +84,9 @@
 <section class="main">
   <div class="flex-column" id="right">
   <div class="wrap wrap--1" id="card1">
-    <div class="container container--1" style="background-image: url('images/Project-thumbnails/PreviousPortofolio.jpg')">
-      <p>Previous Portofolio</p>
+    <div class="container container--1">
+      <img class="p-img" src="images/Project-thumbnails/PreviousPortofolio.jpg" alt="">
+      <p class="card" >Previous Portofolio</p>
     </div>
   </div>
   </div>
@@ -88,13 +95,13 @@
   <div class="flex-column" id="left">
   <div class="wrap wrap--2" id="card2">
     <div class="container container--2">
-      <p>Tribute Page</p>
+      <p class="card">Tribute Page</p>
     </div>
   </div>
 
   <div class="wrap wrap--3" id="card3">
     <div class="container container--3">
-      <p>Blog</p>
+      <p class="card">Blog</p>
     </div>
   </div>
 </div>
@@ -102,20 +109,20 @@
 <div class="flex-column" id="right">
   <div class="wrap wrap--4" id="card4">
     <div class="container container--1">
-      <p>Coming Soon</p>
+      <p class="card">Coming Soon</p>
       <img src="" alt="">
     </div>
   </div>
 
   <div class="wrap wrap--5" id="card5">
     <div class="container container--2">
-      <p>First Portofolio</p>
+      <p class="card">First Portofolio</p>
     </div>
   </div>
 
   <div class="wrap wrap--6" id="card6">
     <div class="container container--3">
-      <p>A Landing Page</p>
+      <p class="card">A Landing Page</p>
     </div>
   </div>
 </div>
@@ -123,13 +130,13 @@
 <div class="flex-column" id="left">
   <div class="wrap wrap--2" id="card2">
     <div class="container container--2">
-      <p>Coming Soon</p>
+      <p class="card">Coming Soon</p>
     </div>
   </div>
 
   <div class="wrap wrap--3" id="card3">
     <div class="container container--3">
-      <p>Coming Soon</p>
+      <p class="card">Coming Soon</p>
     </div>
   </div>
 </div>
@@ -137,7 +144,7 @@
 <div class="flex-column" id="right">
 <div class="wrap wrap--1" id="card1">
   <div class="container container--1" style="background-image: url('images/Project-thumbnails/PreviousPortofolio.jpg')">
-    <p>Coming Soon</p>
+    <p class="card">Coming Soon</p>
   </div>
 </div>
 </div>

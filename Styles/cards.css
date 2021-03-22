@@ -1,94 +1,65 @@
 
 .main {
+  flex-direction: column;
   display: flex;
-  flex-direction: row;
   width: 98%;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  margin-left: 0.5rem;
+  padding: 0.5vw;
+  margin: 0.5vw;
+  margin-left: 0.5vw;
   z-index: 0;
   backdrop-filter: opacity(0.2);
   background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(121, 120, 120, 0.1));
   box-shadow: inset 0 0 0.5rem black ;
-  align-self: center;
-  border-radius: 1rem;
-  justify-content: center;
+  height: auto;
 }
 
 .wrap{
-  margin: 1vw;
-  animation: slide 10s alternate infinite;
-  animation-timing-function: ease-in-out;
+  margin: 2vw;
   cursor: pointer;
   transition: all 500ms ease-out;
-
-  padding: 2%;
-  position: relative;
+  padding: 2vw;
+margin: 2vw;
   display: flex;
-background: transparent;
-border: 1px solid;
+  background: transparent;
+  border: 1px solid;
+  height: auto;
+  width: auto;
 }
-
-#card1 {
-  align-self: flex-start;
-  top: 30rem;
-}
-#card2 {
-  align-self:center;
-  top: 15rem;
-}
-#card3 {
-  align-self: center;
-  top: 15rem;
-}
-
 
 .container {
-  width: 20rem;
-  height: 30rem;
+  width: 100%;
+  height: 100vw;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  background-position: center;
-  background-size: 30rem 20rem;
+  padding: 2vw;
+  margin: 2vw;
+
   font-size: 1.2rem;
   background-color: white;
   transition: all 500ms ease-in-out;
-
+  text-align:center; 
+  flex-direction: row;
 }
 
-.container:hover {
-  background-size: 34rem 22rem;
-  transition: all 500ms ease-in-out;
-  filter:opacity(100%);
-}
-
-@keyframes slide {
-    from{transform:translateX(-0.3rem);}
-    to{transform: translateX(0.3rem);}
-}
-
-p {
-  position: relative;
-  display: flex;
-  align-self:flex-end;
+.card {
+align-self: center;
+float: left;
 color: white;
-flex-direction: column;
 background: #d72323;
-height: 10rem;
-margin-bottom: 2rem;
+height: 20vw;
 width: 100%;
 text-align: center;
 text-transform: uppercase;
-padding: 2rem;
+margin: 0;
+font-size: 5vw;
+position: absolute;
+left: 0;
 }
-
-#left {
-  animation: slide 1s alternate infinite;
-  animation-timing-function: ease-in-out;
-}
-
-#right {
-  animation: slide 1s alternate-reverse infinite;
-  animation-timing-function: ease-in-out;
+.p-img {
+  width: 100%;
+height: 100%;
+object-fit: cover;
+position: absolute;
+padding: 2vw;
+margin: 2vw;
 }

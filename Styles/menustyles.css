@@ -1,6 +1,6 @@
 li, a, button {
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.2em;
     color: rgb(8, 8, 8);
     text-decoration: none;
     
@@ -11,15 +11,15 @@ float: right;
 }
 
 header {
-
+    padding-right: 2vw !important;
     justify-content: space-between;
     align-items: right;
-    padding: 0.5rem 10%;
+    padding:0.5vw;
     align-content: right;
     position: fixed;
     z-index: 3;
     background: rgb(255, 255, 255);
-    box-shadow: 0 0 1rem black;
+    box-shadow: 0 0 1vw black;
 }
 
 .logo {
@@ -33,7 +33,7 @@ header {
 
 .nav__links li {
     display: inline-block;
-    padding: 0rem 1.25rem;
+    padding: 0vw 1.25vw;
 }
 
 .nav__links li a {
@@ -45,22 +45,10 @@ header {
     transition: all 500ms ease-in;  
 }
 
-button {
-    color: white;
-    padding: 0.5625rem 1.5625rem;
-    background-color: rgb(36, 38, 59);
-    border: none;
-    border-radius: 3.125rem;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
 
-button:hover {
-    background-color: rgba(82, 82, 82, 0.8);
-}
 
 li {
-    margin: 0.625rem;
+    margin: 0.625vw;
 }
 
 .menu-links {
@@ -74,7 +62,7 @@ li {
     content: '';
     display: block;
     width: 0;
-    height: 0.125rem;
+    height: 0.125vw;
     background: red;
     transition: width .3s;
 }
