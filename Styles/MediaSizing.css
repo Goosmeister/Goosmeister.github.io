@@ -56,7 +56,23 @@
         padding: 0;
         margin: 0;
       }
- 
+      article{
+        align-self: inherit;
+      }
+
+      .container:hover{
+        filter: brightness(200%);
+        transition: all 500ms ease-in-out;
+        }
+        .wrap:hover{
+          box-shadow: 0 0 2vw black;
+          transition: all 500ms ease-in-out;
+        }
+
+ .white-break-header {
+   padding: 0.5vw 0;
+   margin: 1.5vw 0;
+ }
       @keyframes slide {
         from{transform:translateX(-0.3rem);}
         to{transform: translateX(0.3rem);}

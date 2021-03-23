@@ -11,6 +11,7 @@
   background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(121, 120, 120, 0.1));
   box-shadow: inset 0 0 0.5rem black ;
   height: auto;
+  
 }
 
 .wrap{
@@ -18,25 +19,21 @@
   cursor: pointer;
   transition: all 500ms ease-out;
   padding: 2vw;
-margin: 2vw;
+  margin: 2vw;
   display: flex;
   background: transparent;
-  border: 1px solid;
   height: auto;
   width: auto;
+  overflow:hidden;
 }
 
 .container {
+  align-self: center;
   width: 100%;
   height: 100vw;
   display: flex;
   align-items: center;
-  padding: 2vw;
-  margin: 2vw;
-
   font-size: 1.2rem;
-  background-color: white;
-  transition: all 500ms ease-in-out;
   text-align:center; 
   flex-direction: row;
 }
@@ -52,14 +49,73 @@ text-align: center;
 text-transform: uppercase;
 margin: 0;
 font-size: 5vw;
-position: absolute;
+position:absolute;
 left: 0;
 }
-.p-img {
-  width: 100%;
-height: 100%;
-object-fit: cover;
-position: absolute;
-padding: 2vw;
-margin: 2vw;
+
+
+/* images */
+
+#container--1{
+  object-fit: cover;
+  background-position: center;
+  background-size: 40vw;
+  background-image:url('../images/PreviousPortofolio.jpg');
 }
+
+#container--2{
+  object-fit: cover;
+  background-position: center;
+  background-size: 40vw;
+  background-image:url('../images/Goku.jpg');
+}
+
+#container--3{
+  object-fit: cover;
+  background-position: center;
+  background-size: 40vw;
+  background-image:url('../images/BlogShortStory.jpg');
+}
+
+#container--4{
+  object-fit: cover;
+  background-position: center;
+  background-size: 40vw;
+  background-image:url('../images/LandingPagePS1.jpg');
+}
+
+#container--5{
+  object-fit: cover;
+  background-position: center;
+  background-size: 40vw;
+  background-image:url('../images/OldOldPortofolio.jpg');
+}
+
+#container--6{
+  object-fit: cover;
+  background-position: center;
+  background-size: 40vw;
+  background-image:url('../images/Form.jpg');
+}
+
+#container--7{
+  object-fit: cover;
+  background-position: center;
+  background-size: 40vw;
+  background-image:url('');
+}
+
+#container--8{
+  object-fit: cover;
+  background-position: center;
+  background-size: 40vw;
+  background-image:url('');
+}
+
+#container--9{
+  object-fit: cover;
+  background-position: center;
+  background-size: 40vw;
+  background-image:url('');
+}
+

@@ -31,21 +31,24 @@ footer {
     align-self: flex-end;
 
 }
+.footer-info{
+display: flex;
+flex-direction: column;
 
-button {
-    color: white;
-    padding: 0.5625vw 1.5625vw;
-    background-color: rgb(59, 36, 36);
-    border: none;
-    border-radius: 3.125vw;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    align-self: flex-end;
-    float: right;
 }
-
-button:hover {
-    background-color: rgba(255, 0, 0, 1);
+.footer-info p{
+    width: 50%;
+    color: black;
+align-self: center;
+    text-align: center;
+    float: left;
+}
+.footer-info a{
+    padding: 0.5vw;
+    float: left;
+}
+.footer-info a:hover{
+    color: red;
 }
 
 body {
