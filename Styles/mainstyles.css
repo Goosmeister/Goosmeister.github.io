@@ -29,7 +29,7 @@ footer {
     box-sizing: border-box;
     background-color: white;
     align-self: flex-end;
-
+margin-bottom: 0;
 }
 .footer-info{
 display: flex;
