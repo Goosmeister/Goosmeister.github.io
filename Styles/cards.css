@@ -15,7 +15,6 @@
 }
 
 .wrap{
-  margin: 2vw;
   cursor: pointer;
   transition: all 500ms ease-out;
   padding: 2vw;
@@ -59,63 +58,63 @@ left: 0;
 #container--1{
   object-fit: cover;
   background-position: center;
-  background-size: 40vw;
+  background-size: 100%;
   background-image:url('../images/PreviousPortofolio.jpg');
 }
 
 #container--2{
   object-fit: cover;
   background-position: center;
-  background-size: 40vw;
+  background-size: 100%;
   background-image:url('../images/Goku.jpg');
 }
 
 #container--3{
   object-fit: cover;
   background-position: center;
-  background-size: 40vw;
+  background-size: 100%;
   background-image:url('../images/BlogShortStory.jpg');
 }
 
 #container--4{
   object-fit: cover;
   background-position: center;
-  background-size: 40vw;
+  background-size: 100%;
   background-image:url('../images/LandingPagePS1.jpg');
 }
 
 #container--5{
   object-fit: cover;
   background-position: center;
-  background-size: 40vw;
+  background-size: 100%;
   background-image:url('../images/OldOldPortofolio.jpg');
 }
 
 #container--6{
   object-fit: cover;
   background-position: center;
-  background-size: 40vw;
+  background-size: 100%;
   background-image:url('../images/Form.jpg');
 }
 
 #container--7{
   object-fit: cover;
   background-position: center;
-  background-size: 40vw;
+  background-size: 100%;
   background-image:url('');
 }
 
 #container--8{
   object-fit: cover;
   background-position: center;
-  background-size: 40vw;
+  background-size: 100%;
   background-image:url('');
 }
 
 #container--9{
   object-fit: cover;
   background-position: center;
-  background-size: 40vw;
+  background-size: 100%;
   background-image:url('');
 }
 

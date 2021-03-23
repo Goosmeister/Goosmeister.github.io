@@ -69,6 +69,14 @@
           transition: all 500ms ease-in-out;
         }
 
+        .footer-info p{
+          padding: 0.5vw;
+      }
+      .footer-info a{
+          padding: 0.5vw;
+          padding-left: 5vw;
+      }
+
  .white-break-header {
    padding: 0.5vw 0;
    margin: 1.5vw 0;
@@ -137,5 +145,29 @@
         font-size:12vw;
         top: -1.05em;
     }
-    
+    article{
+      align-self: unset;
+      box-shadow:  0 0 0 black ;
+    }
+    @keyframes rotate {
+
+      0%{
+        transform: translate(1vw , -1vw);
+      }
+        100%{
+          transform: translate(-300vw, 200vw);
+          }
+      
+      }
+      .fullscreen-div, .main{
+        box-shadow: inset 0 0 0 black ;
+      }
+      .wrap{
+        border: 1px solid white;
+        height: 100%;
+      }
+      .card{
+        position: unset;
+      }
+
 }
