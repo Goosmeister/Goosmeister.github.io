@@ -208,6 +208,7 @@ article {
   }
 
  .white-break-header {
+     align-self: center;
    padding: 0.5vw 0;
    margin: 1.5vw 0;
     }

@@ -1,4 +1,8 @@
-
+#projects {
+  color: black;
+  text-align: center;
+  align-self: center;
+}
 .main {
   flex-direction: column;
   display: flex;
