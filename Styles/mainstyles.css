@@ -28,7 +28,9 @@ footer {
     padding: 4.375vw 3vw;
     box-sizing: border-box;
     background-color: white;
-    display: block;
+    display:block;
+    align-self:flex-end;
+    bottom: 0;
 }
 .footer-info{
     display: flex;
