@@ -29,6 +29,7 @@ footer {
     box-sizing: border-box;
     background-color: white;
     bottom:0;
+    overflow:show;
 }
 .footer-info{
     display: flex;
@@ -75,7 +76,6 @@ body {
     }
 
 html {
-    display: flex;
     flex-direction: column;
     width: 100vw ;
     font-size:100%; 
