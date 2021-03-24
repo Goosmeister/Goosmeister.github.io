@@ -5,7 +5,7 @@
 }
 
 #projects {
-  color: black;
+  color: red;
   text-align: center;
   align-self: center;
 }
@@ -89,7 +89,7 @@
   object-fit: cover;
   background-position: center;
   background-size: 100%;
-  background-image:url('../images/PreviousPortofolio.jpg');
+  background-image:url('');
 }
 
 #container--5{
@@ -223,7 +223,7 @@
     transition: all 500ms ease-in-out;
     }
 
-  .wrap:hover, .card:hover {
+  .wrap:hover {
     color: white;
     background: red;
     box-shadow: 0 0 0.2vw black;
