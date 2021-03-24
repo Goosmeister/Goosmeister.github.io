@@ -37,7 +37,7 @@ ul {
 
 /*desktop*/
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 800px) {
 
 .topnav a {
 
@@ -58,8 +58,13 @@ label {
 
 /* mobile*/
 
-@media only screen and (max-width: 769px) {
-  
+@media only screen and (max-width: 799px) {
+.nav__links li a{
+        display: flex;
+        align-items: center;
+        padding: 0vw 1.25vw;
+        float: left;
+    }
 ul {
       padding-left: 0%;
       padding: 0%;
@@ -68,7 +73,9 @@ ul {
       overflow:visible;
       }
   
-  
+  label{
+      margin: 1vw;
+  }
 li a {
       align-self: center;
       
