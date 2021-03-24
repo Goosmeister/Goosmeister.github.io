@@ -8,8 +8,7 @@
   margin-left: 0.5vw;
   z-index: 0;
   backdrop-filter: opacity(0.2);
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(121, 120, 120, 0.1));
-  box-shadow: inset 0 0 0.5rem black ;
+  background: linear-gradient(left rgba(54, 54, 54, 0.1), rgba(112, 112, 112, 0.2));
   height: auto;
 }
 
@@ -19,7 +18,7 @@
   padding: 2vw;
   margin: 2vw;
   display: flex;
-  background: transparent;
+  background: white;
   height: auto;
   width: auto;
   overflow:hidden;
@@ -39,8 +38,8 @@
 .card {
   align-self: center;
   float: left;
-  color: white;
-  background: #d72323;
+  color: black;
+  background: white;
   height: 20vw;
   width: 100%;
   text-align: center;
@@ -58,7 +57,7 @@
   object-fit: cover;
   background-position: center;
   background-size: 100%;
-  background-image:url('../images/PreviousPortofolio.jpg');
+  background-image:url('../images/LandingPagePS1.jpg');
 }
 
 #container--2{
@@ -79,7 +78,7 @@
   object-fit: cover;
   background-position: center;
   background-size: 100%;
-  background-image:url('../images/LandingPagePS1.jpg');
+  background-image:url('../images/PreviousPortofolio.jpg');
 }
 
 #container--5{
@@ -164,10 +163,8 @@
     margin-left: 0.5vw;
     z-index: 0;
     backdrop-filter: opacity(0.2);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(121, 120, 120, 0.1));
-    box-shadow: inset 0 0 0.5rem black ;
+   
     align-self: center;
-    border-radius: 1vw;
     justify-content: center;
   }
   .wrap{
@@ -179,7 +176,7 @@
     padding: 2%;
     position: relative;
     display: flex;
-    background: transparent;
+    background: white;
     border: 1px solid;
   }
   #card1 {

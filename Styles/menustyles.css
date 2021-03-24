@@ -14,7 +14,7 @@ header {
     padding-right: 2vw !important;
     justify-content: space-between;
     align-items: right;
-    padding:0.5vw;
+    padding:0.2vw;
     align-content: right;
     position: fixed;
     z-index: 3;
@@ -46,13 +46,8 @@ header {
 }
 
 
-
-li {
-    margin: 0.625vw;
-}
-
 .menu-links {
-    display: inline-block;
+    
     color: rgb(0, 0, 0);
     text-decoration: none;
     

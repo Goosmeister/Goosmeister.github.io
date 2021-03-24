@@ -1,0 +1,156 @@
+label {
+    float: right;
+  }
+  
+.burgerMenu {
+    position: absolute;
+    display: none;
+    }
+
+ul {
+        align-items: center;
+        align-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+.topnav {
+    z-index: 1;
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%;
+    background: white;
+    }
+    
+.topnav a {
+    display: flex;
+    flex: 1;
+    float: left;
+    text-align: center;
+    background-color: white;
+    }
+  
+
+/*desktop*/
+
+@media only screen and (min-width: 770px) {
+
+.topnav a {
+
+      float: left;
+      text-align: center;
+      padding: 1.25rem ;
+      font-size: 1.2rem;
+    }
+
+.menu-window{
+      display: block;
+    }
+
+label {
+    display: none;
+    }
+  }
+
+/* mobile*/
+
+@media only screen and (max-width: 769px) {
+  
+ul {
+      padding-left: 0%;
+      padding: 0%;
+      margin: 0%;
+      position: relative;
+      overflow:visible;
+      }
+  
+  
+li a {
+      align-self: center;
+      
+      }
+li  {
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    padding: 4vw;
+    margin: 4vw;
+        }
+  
+input:checked ~ .menu-window{
+      display: none;
+  
+    }
+input:checked ~ rect{
+    display: none;
+    }
+    
+label {
+    transform: translateX(-20%);
+  }
+
+.burgerMain {
+    display: block;
+  }
+
+.crossMain {
+    display: none;
+  }
+  
+.cross1 {
+      animation-name: rotateRectLeft;
+     animation-duration: 100ms;
+     animation-timing-function: linear;
+     animation-delay: 0s;            
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+      transform-origin: left;
+  
+    }
+.cross2 {
+      animation-name: rotateRectRight;
+      animation-duration: 100ms;
+      animation-timing-function: linear;
+      animation-delay: 0s;            
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      transform-origin: left bottom;
+  
+    }
+
+@keyframes rotateRectLeft {
+      from { transform: rotateZ(0deg); }
+      to   { transform: rotateZ(45deg); }
+   }
+
+@keyframes rotateRectRight {
+    from { transform: rotateZ(0deg); }
+    to   { transform: rotateZ(-45deg); }
+  }
+
+.crossreverse1 {
+    animation-name: rotateRectLeft;
+   animation-duration: 100ms;
+   animation-timing-function: linear;
+   animation-delay: 0s;            
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+   animation-direction: reverse;
+    transform-origin: left;
+  
+  }
+.crossreverse2 {
+    animation-name: rotateRectRight;
+    animation-duration: 100ms;
+    animation-timing-function: linear;
+    animation-delay: 0s;            
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: left bottom;
+    animation-direction: reverse;
+    }
+  }
