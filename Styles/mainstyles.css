@@ -28,13 +28,13 @@ footer {
     padding: 4.375vw 3vw;
     box-sizing: border-box;
     background-color: white;
-    display:block;
-    align-self:flex-end;
-    bottom: 0;
+    bottom:0;
 }
 .footer-info{
     display: flex;
     flex-direction: column;
+   bottom:0;
+   width:100%;
 
 }
 .footer-info p{
