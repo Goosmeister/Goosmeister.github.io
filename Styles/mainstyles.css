@@ -5,8 +5,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 
-html,body{overflow-x: hidden;
+html,body{
+scroll-behavior: smooth;
+    overflow-x: hidden;
     }
+
+
+
+.backg{
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    transform:rotate(90deg);
+    z-index: -10;
+    background: url('/images/space2.jpg');
+    background-size: cover;
+    animation:pulse-back 200s infinite;
+    animation-fill-mode:both;
+    animation-timing-function: linear;
+    background-repeat: repeat;
+  }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -35,7 +54,7 @@ footer {
     display: flex;
     flex-direction: column;
    bottom:0;
-   width:100%;
+
 
 }
 .footer-info p{
@@ -43,31 +62,23 @@ footer {
     color: grey;
 align-self: center;
     text-align: center;
-    float: left;
+    float: right;
     padding: 2vw;
 }
 .footer-info a{
     padding: 2vw;
     padding-left: 5vw;
-    float: left;
+    float: right;
+    align-self: right;
 }
 .footer-info a:hover{
     color: red;
 }
 
 body {
- 
-    background-color: black;
-    background-image: linear-gradient(#303841 10%, #3a4750 90%);
     display: flex;
     flex-direction: column;
-    background-repeat: no-repeat;
     width: 100vw;
-    animation-name: pulse-back;
-    animation-duration: 10s;
-    animation-direction:alternate;
-    animation-iteration-count: infinite;
-    background-size: 300%;
 }
 
     @keyframes pulse-back {
@@ -80,6 +91,7 @@ html {
     width: 100vw ;
     font-size:100%; 
     max-width: 100%;
+    scroll-behavior: smooth;
 }
 
 article {
@@ -89,13 +101,13 @@ article {
 }
 
 .header_this {
-    font-style: normal;
+    font-style:normal;
     position:relative;
     font-size: 14vw;
     background: transparent;
-    color: transparent;
-    -webkit-text-stroke-width: 0.2vw;
-    -webkit-text-stroke-color: orange;
+    color: rgb(250, 0, 0);
+    -webkit-text-stroke-width: 0.1vw;
+    -webkit-text-stroke-color: white;
 }
 .header_is {
     font-style: normal;
@@ -103,7 +115,7 @@ article {
     position:relative;
     background: transparent;
     color: transparent;
-    -webkit-text-stroke-width: 0.2vw;
+    -webkit-text-stroke-width: 0.1vw;
     -webkit-text-stroke-color: white;
 }
 .header_are {
@@ -116,12 +128,14 @@ article {
     -webkit-text-stroke-color: white;
 }
 .header_portofolio {
-    font-style: normal;
+    font-style: italic;
     font-size: 6vw;
     position:relative;
     background: transparent;
     color: red;
     top: -0.8em;
+    -webkit-text-stroke-width: 0.05vw;
+    -webkit-text-stroke-color: white;
 }
 .header_my {
     font-style: normal;
