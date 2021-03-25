@@ -12,19 +12,7 @@ scroll-behavior: smooth;
 
 
 
-.backg{
-    position: fixed;
-    width: 100vw;
-    height: 100vw;
-    transform:rotate(90deg);
-    z-index: -10;
-    background: url('/images/space2.jpg');
-    background-size: cover;
-    animation:pulse-back 200s infinite;
-    animation-fill-mode:both;
-    animation-timing-function: linear;
-    background-repeat: repeat;
-  }
+
 
 * {
     box-sizing: border-box;
@@ -92,6 +80,7 @@ html {
     font-size:100%; 
     max-width: 100%;
     scroll-behavior: smooth;
+    background: linear-gradient(90deg, black, grey)
 }
 
 article {
@@ -228,6 +217,19 @@ article {
    padding: 0.5vw 0;
    margin: 1.5vw 0;
     }
+    .backg{
+        position: fixed;
+        width: 100vw;
+        height: 100vw;
+        transform:rotate(90deg);
+        z-index: -10;
+        background: url('/images/space2.jpg');
+        background-size: cover;
+        animation:pulse-back 200s infinite;
+        animation-fill-mode:both;
+        animation-timing-function: linear;
+        background-repeat: repeat;
+      }
 }
 
 /* mobile resizing*/
