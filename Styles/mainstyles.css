@@ -22,13 +22,14 @@ scroll-behavior: smooth;
     font-family: 'Roboto Slab', serif;
     text-rendering:optimizeLegibility;
     color: white;
+  
     
 }
 header {
     width: 100vw;
     align-content: right;
     box-shadow: 0 0 0.5vw black;
-    
+    top: 0;
 }
 footer {
     width: 100vw;
@@ -94,9 +95,9 @@ article {
     position:relative;
     font-size: 14vw;
     background: transparent;
-    color: rgb(250, 0, 0);
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.2vw;
+    -webkit-text-stroke-color: rgb(94, 94, 94);
 }
 .header_is {
     font-style: normal;
@@ -121,10 +122,10 @@ article {
     font-size: 6vw;
     position:relative;
     background: transparent;
-    color: red;
+    color: rgb(253, 253, 253);
     top: -0.8em;
     -webkit-text-stroke-width: 0.05vw;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: rgb(134, 134, 134);
 }
 .header_my {
     font-style: normal;
