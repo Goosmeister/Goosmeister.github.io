@@ -1,8 +1,8 @@
 
 
 .circle {
-    background-color: #f91f1f;
-    background-image: radial-gradient( #1a0000 50%, #ff2525 500%);
+    background-color: #7aa9ee;
+    background-image: radial-gradient( #000000 50%, #8ab4ec 500%);
     border-radius: 50%;
     width: 180vw;
     height: 180vw;
@@ -11,12 +11,12 @@
     border-width: 0.1rem;
     position:fixed;
     box-shadow:  inset 0 0 50px #fff,
-    inset 1vw 0 4vw rgb(255, 0, 0),
+    inset 1vw 0 4vw rgb(0, 132, 255),
     inset -2vw 0 4vw rgb(255, 255, 255),
-    inset 1vw 0 15vw rgb(255, 0, 0),
+    inset 1vw 0 15vw rgb(0, 132, 255),
     inset -1vw 0 15vw rgb(255, 255, 255),
     0 0 0.5vw #fff,
-    -0.5vw 0 4vw rgb(255, 0, 0),
+    -0.5vw 0 4vw rgb(0, 140, 255),
     0.5vw 0 4vw rgb(255, 255, 255);
     transition: all 500ms ease-in-out;
 }
@@ -26,12 +26,12 @@
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
   box-shadow:
   inset 0 0 3vw #fff,
-  inset 1vw 0 4vw rgb(255, 0, 0),
+  inset 1vw 0 4vw rgb(0, 119, 255),
   inset -1vw 0 4vw rgb(255, 238, 0),
-  inset 1vw 0 15vw rgb(255, 0, 0),
+  inset 1vw 0 15vw rgb(0, 174, 255),
   inset -1vw 0 15vw #0ff,
   0 0 0.5vw #fff,
-  -0.5vw 0 4vw rgb(255, 0, 0),
+  -0.5vw 0 4vw rgb(0, 174, 255),
   0.5vw 0 4vw #0ff;
   border-radius: 50%;
   width: 10vw;
@@ -98,21 +98,21 @@
 
 @keyframes pulse {
   from{box-shadow:  inset 0 0 50px #fff,
-    inset 1vw 0 4vw rgb(255, 0, 0),
+    inset 1vw 0 4vw rgb(0, 81, 255),
     inset -2vw 0 4vw rgb(255, 255, 255),
-    inset 1vw 0 15vw rgb(255, 0, 0),
-    inset -1vw 0 15vw rgb(252, 4, 4),
+    inset 1vw 0 15vw rgb(0, 132, 255),
+    inset -1vw 0 15vw rgb(4, 153, 252),
     0 0 0.5vw #fff,
-    -0.5vw 0 4vw rgb(255, 0, 0),
+    -0.5vw 0 4vw rgb(0, 119, 255),
     0.5vw 0 4vw rgb(255, 255, 255);
     }
-  to{box-shadow:   inset 0 0 0.3125rem rgb(255, 68, 68),
-    inset 0.125vw 0 0px rgb(255, 0, 0),
+  to{box-shadow:   inset 0 0 0.3125rem rgb(68, 118, 255),
+    inset 0.125vw 0 0px rgb(0, 119, 255),
     inset -0.125vw 0 0px rgb(254, 254, 255),
-    inset 0.125vw 0 0px rgb(255, 0, 0),
-    inset -0.125vw 0 0px rgb(255, 2, 2),
+    inset 0.125vw 0 0px rgb(0, 162, 255),
+    inset -0.125vw 0 0px rgb(2, 69, 255),
     0 0 0.05vw rgb(0, 0, 0),
-    -0.05vw 0 0.05vw rgb(255, 0, 0),
+    -0.05vw 0 0.05vw rgb(0, 119, 255),
     0.05vw 0 0.05vw rgb(255, 255, 255);
     }
   

@@ -5,7 +5,7 @@
 }
 
 #projects {
-  color: red;
+  color: rgb(83, 152, 231);
   text-align: center;
   align-self: center;
 }
@@ -225,7 +225,7 @@
 
   .wrap:hover {
     color: white;
-    background: red;
+    background: rgb(0, 153, 255);
     box-shadow: 0 0 0.2vw black;
     transition: all 500ms ease-in-out;
   }
