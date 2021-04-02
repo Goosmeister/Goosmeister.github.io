@@ -8,7 +8,7 @@ li, a, button {
 nav {
     top: 0;
 z-index: 1;
-float: right;
+
 }
 
 
@@ -22,8 +22,10 @@ float: right;
 }
 
 .nav__links li {
-    display: inline-block;
-    padding: 1vw 1vw;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding: 1vw 2vw;
 }
 
 .nav__links li a {
@@ -32,9 +34,9 @@ float: right;
 
 .nav__links li a:hover {
     
-    color: rgb(0, 153, 255);
-    transition: all 500ms ease-in;  
-    border-bottom: 1px solid rgb(0, 140, 255);
+    color: rgb(0, 21, 36);
+    transition: all 500ms ease-in-out;  
+    border-bottom:  0.1vw solid rgb(65, 169, 255);
 }
 
 
@@ -49,7 +51,7 @@ float: right;
     content: '';
     display: block;
     width: 0;
-    height: 0.125vw;
+    height: 0vw;
     background: rgb(0, 110, 255);
     transition: width .3s;
 }

@@ -38,7 +38,7 @@ footer {
     width: 100vw;
     padding: 4.375vw 3vw;
     box-sizing: border-box;
-    background-color: white;
+    background-color: rgb(46, 150, 235);
     bottom:0;
     overflow:show;
 }
@@ -49,10 +49,14 @@ footer {
 
 
 }
+
+span{
+    font-size: 1.5vw;
+}
 .footer-info p{
     width: 50%;
-    color: grey;
-align-self: center;
+    color: rgb(213, 236, 255);
+    align-self: center;
     text-align: center;
     float: right;
     padding: 2vw;
@@ -60,11 +64,11 @@ align-self: center;
 .footer-info a{
     padding: 2vw;
     padding-left: 5vw;
-    float: right;
     align-self: right;
+    width: 10vw;
 }
 .footer-info a:hover{
-    color: rgb(108, 177, 218);
+    color: rgb(183, 229, 255);
 }
 
 body {
@@ -92,15 +96,17 @@ article {
     align-self: center;
     position: relative;
 }
-
+bold{
+    color: rgb(0, 140, 255);
+}
 .header_this {
     font-style:normal;
     position:relative;
     font-size: 14vw;
     background: transparent;
-    color: rgb(255, 255, 255);
+    color: rgba(0, 174, 255, 0.7);
     -webkit-text-stroke-width: 0.2vw;
-    -webkit-text-stroke-color: rgb(94, 94, 94);
+    -webkit-text-stroke-color: rgb(195, 226, 255);
     z-index: -1;
 }
 .header_is {
@@ -168,10 +174,17 @@ article {
     width: 100%;
     padding: 4vw 0;
     box-sizing: border-box;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(193, 215, 233);
     align-self: flex-start;
     margin: 1vw 0;
     z-index: 0;
+    box-shadow: 0 0 0.5vw black;
+}
+.breakWindow{
+    
+    padding: 0.3vw 0;
+    background:rgba(116, 131, 155, 0.199);
+    box-shadow: 0 0 0.3vw lightgrey, inset 0 0 0.5vw black;
 }
 
 .white-break-header{
@@ -228,7 +241,7 @@ article {
         height: 100vw;
         transform:rotate(90deg);
         z-index: -10;
-        background: url('/images/space2.jpg');
+        background: url('/images/space2cold.jpg');
         background-size: cover;
         animation:pulse-back 200s infinite;
         animation-fill-mode:both;
@@ -245,6 +258,10 @@ article {
     
     li, a, button {
         font-size: 1em;
+    }
+
+    span{
+        font-size: 5vw;
     }
   
     .fulscreen-div {

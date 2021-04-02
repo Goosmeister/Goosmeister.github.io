@@ -5,7 +5,7 @@
 }
 
 #projects {
-  color: rgb(83, 152, 231);
+  color: rgb(0, 47, 100);
   text-align: center;
   align-self: center;
 }
@@ -18,7 +18,7 @@
   margin: 0.5vw;
   margin-left: 0.5vw;
   z-index: 0;
-  backdrop-filter: opacity(0.2);
+
   background: linear-gradient(left rgba(54, 54, 54, 0.1), rgba(112, 112, 112, 0.2));
   height: auto;
 }
@@ -29,7 +29,7 @@
   padding: 2vw;
   margin: 2vw;
   display: flex;
-  background: white;
+  background: transparent;
   height: auto;
   width: auto;
   overflow:hidden;
@@ -44,6 +44,7 @@
   font-size: 1.2rem;
   text-align:center; 
   flex-direction: row;
+  background: transparent;
 }
 
 .card {
@@ -190,8 +191,9 @@
     padding: 2%;
     position: relative;
     display: flex;
-    background: white;
-    border: 1px solid;
+    background: rgba(0, 35, 63, 0.4);
+
+    box-shadow: 0 0 1vw black, inset 0 0 0.5vw white;
   }
   #card1 {
     align-self: flex-start;

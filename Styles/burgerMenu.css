@@ -11,8 +11,8 @@ ul {
         align-items: center;
         align-content: center;
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        margin: 0.1vw;
+        padding: 0.1vw;
         font-size: 1rem;
         font-weight: bold;
       }
@@ -30,7 +30,7 @@ ul {
 .topnav a {
     display: flex;
     flex: 1;
-    float: left;
+ color: white;
     text-align: center;
     background-color: white;
     }
@@ -39,14 +39,18 @@ ul {
 /*desktop*/
 
 @media only screen and (min-width: 800px) {
-
+  .topnav {
+height: 4vw;
+    }
 .topnav a {
 
       float: left;
       text-align: center;
-      padding: 1rem ;
-      font-size: 1.2rem;
+      justify-self: center;
+      font-size: 1.4rem;
+      color: rgb(0, 140, 255);
     }
+
 
 .menu-window{
       display: block;
@@ -61,10 +65,13 @@ label {
 
 @media only screen and (max-width: 799px) {
 .nav__links li a{
-        display: flex;
-        align-items: center;
-        padding: 0vw 1.25vw;
-        float: left;
+  display: flex;
+  align-items: stretch;
+  padding: 2vw 1.25vw;
+  float: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background:rgb(46, 150, 235);
     }
 ul {
       padding-left: 0%;
@@ -85,8 +92,7 @@ li  {
     align-self: center;
     width: 100%;
     text-align: center;
-    padding: 4vw;
-    margin: 4vw;
+    padding: 5vw;
         }
   
 input:checked ~ .menu-window{
