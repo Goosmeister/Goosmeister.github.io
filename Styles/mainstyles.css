@@ -49,9 +49,43 @@ footer {
     display: flex;
     flex-direction: column;
    bottom:0;
-
-
 }
+
+.port{
+    top: 10%;
+    bottom: 100%;
+    position: fixed;
+    width: 10vw;
+    height: 10vw;
+    padding: 1vw;
+  
+    right: 0;
+    margin: 1vw;
+    border-radius: 50%;
+    border: 3px solid white;
+    background: transparent;
+    color: lightblue;
+    box-shadow: 0 0 1vw white;
+    text-shadow: 0 0 0.5vw black;
+    transition:all 500ms ease-in-out;
+    font-size: 0.8vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.port:hover{
+    transition:all 500ms ease-in-out;
+    color: white;
+    
+    background: rgba(39, 151, 255, 0.5);
+    cursor: pointer;
+}
+
 
 span{
     font-size: 1.5vw;
@@ -259,10 +293,19 @@ bold{
 
 @media only screen and (max-width: 768px) /* mobile */{
     
-    li, a, button {
+    li, a{
         font-size: 1em;
     }
 
+.port{
+height: 30vw;
+width: 30vw;
+font-size: 3vw;
+right: 100%;
+left: 0;
+background: rgba(39, 151, 255, 0.5);
+color: white;
+}
     span{
         font-size: 5vw;
     }
