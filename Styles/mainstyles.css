@@ -204,7 +204,7 @@ bold{
     height: 50vw;
     width: 37.5vw;
     align-self:flex-end;
-    transform: translate(40vw, 5vw);
+    transform: translate(25vw, 1vw);
 }
 
 .white-break {
@@ -247,7 +247,7 @@ bold{
 .fullscreen-div {
     height: auto;
     width: 98%;
-    padding: 0.5vw;
+    padding: 5% 15%;
     margin: 0.5vw;
     margin-left: 0.5vw;
     z-index: 0;
@@ -264,7 +264,7 @@ bold{
   }
   .footer-info a{
       padding: 0.5vw;
-      padding-left: 5vw;
+      padding-left: 20vw;
   }
 
  .white-break-header {
@@ -301,8 +301,9 @@ bold{
 height: 30vw;
 width: 30vw;
 font-size: 3vw;
-right: 100%;
-left: 0;
+right: 0;
+bottom: 0 !important;
+top: 80%;
 background: rgba(39, 151, 255, 0.5);
 color: white;
 }
