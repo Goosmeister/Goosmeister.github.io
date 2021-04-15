@@ -30,13 +30,14 @@ z-index: 1;
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
+    color: black;
 }
 
 .nav__links li a:hover {
-    
-    color: rgb(0, 21, 36);
     transition: all 500ms ease-in-out;  
-    border-bottom:  0.1vw solid rgb(65, 169, 255);
+    color: rgb(0, 149, 255);
+    
+    border-bottom:  0.1vw solid rgb(0, 140, 255);
 }
 
 

@@ -111,7 +111,7 @@
   object-fit: cover;
   background-position: center;
   background-size: 100%;
-  background-image:url('');
+  background-image:url('../images/profile.png');
 }
 
 #container--8{
